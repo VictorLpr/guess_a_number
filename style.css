@@ -1,0 +1,21 @@
+h1 {
+    width: fit-content;
+    font-size: 2em;
+    border: 5px black solid;
+}
+#guessField {
+    height: 25px;
+    font-size: 1.2em;
+
+}
+.form {
+    display: flex;
+    gap: 0px;
+        width: fit-content;
+}
+h2 {
+    font-size: 10rem;
+    color: hotpink;
+    text-align: center;
+
+}
