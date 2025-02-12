@@ -72,6 +72,11 @@ let guesses = document.getElementById("guessCount");
 let minRange = 0;
 let maxRange = 50;
 guessSubmit.addEventListener("click", gameplay);
+guessField.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        gameplay();
+    }
+});
 
 function launchConfetti() {
     confetti({
